@@ -1,0 +1,123 @@
+
+/* -----------------------------HEADER--------------------------- */
+
+@media screen and (max-width: 640px) {
+
+    .header{
+        min-height: 70vh;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .btn button span{
+        display: none;
+    }
+
+    .btn img{
+        width: 8px;
+        margin-left: 5px;
+    }
+
+    .btn button{
+        padding: 3px 5px;
+        margin-right: 5px;
+    }
+
+    .btn a{
+        padding: 5px 10px;
+    }
+
+    .text-area h2{
+        font-size: 2rem;
+    }
+
+    .text-area h3{
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-block: 15px;
+    }
+
+    .text-area p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        width: 80%;
+        margin: auto;
+    }
+
+    .text-area input{
+        display: block;
+        width: 70%;
+        margin: auto;
+        margin-block: 25px;
+    }
+
+    .text-area a{
+        width: fit-content;
+        font-size: 1rem;
+    }
+
+    .btn a{
+        padding-top: 6px;
+        padding-bottom: 3px;
+        padding-inline: 10px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+    }
+}
+
+/* -----------------------------FEATURES---------------------------------- */
+
+@media screen and (max-width:640px) {
+    .feature{
+        flex-direction: column;
+        text-align: center;
+        margin-block:50px;
+    }
+
+    .feature img{
+        width: 380px;
+    }
+
+    .feature-text h2{
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+        line-height: 40px;
+    }
+
+    .feature-text h3{
+        font-size: 1.2rem;
+    }
+}
+
+/* --------------------------------FAQ---------------------------- */
+
+@media screen and (max-width: 640px) {
+    .faq h2{
+        font-size: 2.2rem;
+    }
+
+    .ques h3{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .membership input{
+        display: block;
+        width: 100%;
+        margin-block: 10px;
+    }
+
+    .membership a{
+        font-size: 1rem;
+    }
+}
+
+/* ------------------------------FOOTER------------------------------ */
+
+@media screen and (max-width: 640px) {
+    .sub-foot{
+        flex-direction: column;
+    }
+}
